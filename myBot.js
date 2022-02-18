@@ -1,4 +1,7 @@
+const BaseBot = require("./baseBot.js");
+
 class BandaBassotti extends BaseBot{
+
 
     constructor(){
         super();
@@ -70,3 +73,5 @@ class BandaBassotti extends BaseBot{
         }
     }
 }
+
+module.exports = BandaBassotti;
